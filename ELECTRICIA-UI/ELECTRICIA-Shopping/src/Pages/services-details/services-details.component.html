@@ -1,0 +1,117 @@
+<!-- breadcrumb__start -->
+<div class="breadcrumb" tabindex="0">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="breadcrumb__title">
+                    <h1>Service</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="color__blue">
+                            Service
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- breadcrumb__end -->
+
+
+<!-- service__section__start -->
+    <div class="service sp_top_80">
+        <div class="container">
+            <div class="row">
+                <ng-container *ngFor="let service of services">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="service__single">
+                        <div class="service__img">
+                            <img [src]="'../../assets/img/service/' + service.serviceLink" alt="">
+                        </div>
+
+                        <div class="service__text">
+                            <h3><a href="#">{{ service.serviceCaption }}</a></h3>
+                            <p>{{ service.serviceDetail1 }}</p>
+                            <a href="#" class="service__button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                </ng-container>
+
+           
+
+      
+            </div>
+        </div>
+    </div>
+<!-- service__section__end -->
+
+<!-- coll__section__start -->
+ <div class="coll__section sp_top_80">
+    <div class="container coll__color">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="coll__section__inner">
+                    <h6>Custom Order</h6>
+                    <h1>+0123-456789</h1>
+                    <div class="button__wrapper">
+                        <a href="#" class="default__button">Make a Call</a>
+                        <a href="#" class=" btn__black default__button">Send Message</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- coll__section__end -->
+
+
+ <!-- blog__section__start -->
+<div class="blog sp_bottom_80">
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="section__title text-center">
+                <h2>Service Blog</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row row__custom__class blog__slider__active slider__default__arrow">
+        <ng-container *ngFor="let blogdetail of blogDetails">
+        <div class="col-xl-4 column__custom__class">
+            <div class="blog__single__wrap">
+                <div class="blog__img">
+                    <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]">
+                        <img [src]="'../../assets/img/blog/' + blogdetail.blog_Image" alt="{{ blogdetail.blog_Caption }}">
+                      </a>
+                    <!-- <a href="blog-details.html"> <img [src]="'../../assets/img/blog/' + blogdetail.blog_Image" alt=""></a> -->
+                </div>
+
+                <div class="blog__meta">
+                    <ul>
+                        <li class="blog__date"><i class="far fa-calendar-alt"></i> {{ blogdetail.blog_Date | date:'mediumDate' }}</li>
+                    </ul>
+                </div>
+
+                <div class="blog__title">
+                    <h2>  <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]"> {{ blogdetail.blog_Caption }} </a></h2>
+                </div>
+
+                <div class="blog__button">
+                    <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]">Read More</a>
+                </div>
+
+            </div>
+        </div>
+        </ng-container>
+    
+    
+    </div>
+</div>
+</div>
+<!-- blog__section__start -->
+
+
+

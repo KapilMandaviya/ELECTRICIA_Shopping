@@ -1,0 +1,15 @@
+# Angular
+ELECTRICIA-UI/ELECTRICIA-Shopping/node_modules
+ELECTRICIA-UI/ELECTRICIA-Shopping/dist
+ELECTRICIA-UI/ELECTRICIA-Shopping/.angular
+ELECTRICIA-UI/ELECTRICIA-Shopping/.env
+
+# DotNet
+ELECTRICIA-API/ELECTRICIA-Shopping_API/bin/
+ELECTRICIA-API/ELECTRICIA-Shopping_API/obj/
+ELECTRICIA-API/ELECTRICIA-Shopping_API/appsettings.*.json
+
+# General
+*.log
+.vscode/
+.idea/

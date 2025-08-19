@@ -1,0 +1,395 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\repo\\homerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repo\\homerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\irepo\\ihomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\irepo\\ihomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\dataaccesslayer\\data\\electriciadbcontext.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\electriciadbcontext.custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\dataaccesslayer\\models\\sp_get_topnewarrivalproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\sp_get_topnewarrivalproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\cartwishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\cartwishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\dataaccesslayer\\data\\electriciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\electriciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\repo\\productservicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repo\\productservicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\irepo\\iproductservicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\irepo\\iproductservicedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\aboutuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\aboutuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\categorydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\categorydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\repo\\cartwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repo\\cartwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\repositorylayer\\irepo\\icartwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C3A4-903B-41BB-A8C5-08CA45B5232C}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\irepo\\icartwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F767E021-D0A0-4FEE-A0F4-5484D503EC59}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB810CB-1AD8-428A-82A4-CB176E3AF0F3}|UtilityLayer\\UtilityLayer.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\utilitylayer\\dto\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB810CB-1AD8-428A-82A4-CB176E3AF0F3}|UtilityLayer\\UtilityLayer.csproj|solutionrelative:utilitylayer\\dto\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|d:\\kapil\\online shopping\\api\\electricia-shopping_api\\electricia-shopping_api\\controllers\\authenticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D65F7-6AA8-4A6A-8993-7F01F49B4EBA}|ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API.csproj|solutionrelative:electricia-shopping_api\\controllers\\authenticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SP_GET_TopNewArrivalProduct.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Models\\SP_GET_TopNewArrivalProduct.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\SP_GET_TopNewArrivalProduct.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Models\\SP_GET_TopNewArrivalProduct.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\SP_GET_TopNewArrivalProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:00:16.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeRepo.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\HomeRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repo\\HomeRepo.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\HomeRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repo\\HomeRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:59:04.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHomeRepo.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\IHomeRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\IRepo\\IHomeRepo.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\IHomeRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\IRepo\\IHomeRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:58:42.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:57:56.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartWishListController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\CartWishListController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\CartWishListController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\CartWishListController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\CartWishListController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:40:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Program.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Program.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Program.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:07:42.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ELECTRICIADBContext.Custom.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Data\\ELECTRICIADBContext.Custom.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ELECTRICIADBContext.Custom.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Data\\ELECTRICIADBContext.Custom.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ELECTRICIADBContext.Custom.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T08:22:13.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SP_GET_TopFeauteredProduct.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\SP_GET_TopFeauteredProduct.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T06:38:08.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductServiceDetails.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\IProductServiceDetails.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\IRepo\\IProductServiceDetails.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\IProductServiceDetails.cs",
+              "RelativeToolTip": "RepositoryLayer\\IRepo\\IProductServiceDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:59:34.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ELECTRICIADBContext.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Data\\ELECTRICIADBContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ELECTRICIADBContext.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\Data\\ELECTRICIADBContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ELECTRICIADBContext.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAIwAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:05:28.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductServiceDetails.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\ProductServiceDetails.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repo\\ProductServiceDetails.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\ProductServiceDetails.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repo\\ProductServiceDetails.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T07:01:56.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositoryLayer.csproj",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeDocumentMoniker": "RepositoryLayer\\RepositoryLayer.csproj",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeToolTip": "RepositoryLayer\\RepositoryLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-14T07:57:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\WeatherForecast.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\WeatherForecast.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:59:55.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:58:48.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryDetailController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\CategoryDetailController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\CategoryDetailController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\CategoryDetailController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\CategoryDetailController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:40:06.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDetailsController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\ProductDetailsController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\ProductDetailsController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\ProductDetailsController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\ProductDetailsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:40:00.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutUsController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\AboutUsController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\AboutUsController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\AboutUsController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\AboutUsController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:40:49.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-18T10:26:38.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthenticController.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\AuthenticController.cs",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\Controllers\\AuthenticController.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\Controllers\\AuthenticController.cs",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\Controllers\\AuthenticController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:56:19.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\appsettings.json",
+              "RelativeDocumentMoniker": "ELECTRICIA-Shopping_API\\appsettings.json",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\ELECTRICIA-Shopping_API\\appsettings.json",
+              "RelativeToolTip": "ELECTRICIA-Shopping_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T09:07:52.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartWishListService.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\CartWishListService.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repo\\CartWishListService.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\Repo\\CartWishListService.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repo\\CartWishListService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAewJcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:39:56.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICartWishList.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\ICartWishList.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\IRepo\\ICartWishList.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\RepositoryLayer\\IRepo\\ICartWishList.cs",
+              "RelativeToolTip": "RepositoryLayer\\IRepo\\ICartWishList.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:39:32.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\UtilityLayer\\DTO\\Cart.cs",
+              "RelativeDocumentMoniker": "UtilityLayer\\DTO\\Cart.cs",
+              "ToolTip": "D:\\Kapil\\Online Shopping\\API\\ELECTRICIA-Shopping_API\\UtilityLayer\\DTO\\Cart.cs",
+              "RelativeToolTip": "UtilityLayer\\DTO\\Cart.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:40:36.346Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

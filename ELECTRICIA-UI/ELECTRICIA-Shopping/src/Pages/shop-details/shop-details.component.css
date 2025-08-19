@@ -1,0 +1,94 @@
+.product-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* maintains aspect ratio, crops if needed */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+
+.grid__wraper__icon ul {
+  display: flex;
+  justify-content: center; /* optional */
+  align-items: center;
+  gap: 12px; /* adjust space between icons */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar__widget {
+  border-bottom: 1px solid #ddd;
+  padding: 3px 0;
+  
+}
+.sidebar__title {
+  cursor: pointer;
+}
+ 
+.sidebar__menu ul li {
+  margin-bottom: 8px;
+  
+}
+
+
+ 
+
+.sidebar__title {
+  
+   visibility: visible !important;
+  display: inline-block !important;
+  
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.sidebar__menu {
+  position: relative; /* or absolute depending on layout */
+  z-index: 1;
+}
+
+.sidebar__list {
+    list-style: none;  /* remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__list li {
+    display: block !important;    /* ensure each li is on a new line */
+    margin-bottom: 6px; /* optional spacing */
+}
+
+
+.sidebar__widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__widget ul li {
+    display: flex;         /* put checkbox + label in a row */
+    align-items: center;   /* vertical alignment */
+    gap: 8px;              /* spacing between checkbox and label */
+    margin-bottom: 6px;    /* space between each color option */
+}
+
+.sidebar__widget ul li input[type="checkbox"] {
+    margin: 0; /* remove default browser spacing */
+}
+
+
+.sidebar__box {
+    display: flex;      /* keep checkbox, label, and count in one row */
+    align-items: center;
+    gap: 8px;           /* space between elements */
+}

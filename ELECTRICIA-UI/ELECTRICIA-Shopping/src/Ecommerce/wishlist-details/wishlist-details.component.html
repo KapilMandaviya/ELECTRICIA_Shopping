@@ -1,0 +1,81 @@
+ <!-- breadcrumb__start -->
+ <div class="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="breadcrumb__title">
+                    <h1>Wishlist</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="color__blue">
+                            wishlist
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- breadcrumb__end -->
+
+
+  
+            <!-- cart__section__start -->
+            <div class="cartarea sp_bottom_100 sp_top_100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <form action="#">
+                                <div class="cartarea__table__content table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Product</th>
+                                                <th>Price</th>
+                                                <th>Cart</th>
+                                                <th>Total</th>
+                                                <th>Remove</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr *ngIf="wishlistItem.length === 0">
+                                                <td colspan="6" style="text-align: center; padding: 20px;">No data in wishlist</td>
+                                            </tr>
+
+                                            <tr *ngFor="let item of wishlistItem">
+                                                <td class="cartarea__product__thumbnail">
+                                                    <a href="#">
+                                                        <img [src]="'/assets/img/ProductImagesUnsplash/' + item.imageUrl" alt="wishlist" width="60" height="60" style="object-fit:cover;">
+                                                    </a>
+                                                </td>
+                                                <td class="cartarea__product__name"> {{ item.productName }}</td>
+                                                <td class="cartarea__product__price__cart"><span class="amount">  ₹{{ item.price }} </span></td>
+                                                <td class="cartarea__product__quantity">
+                                                    <div class="cartarea__plus__button">
+                                                        <a class="default__button" (click)="addToCart(item)">Add to cart</a>
+                                                    </div>
+                                                  
+                                                </td>
+                                                <td class="cartarea__product__subtotal">$110.00</td>
+                                                <td class="cartarea__product__remove">
+                                                    <a (click)="remove(item.productId)">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Trash</title><path d="M112 112l20 320c.95 18.49 14.4 32 32 32h184c17.67 0 30.87-13.51 32-32l20-320" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 112h352"/><path d="M192 112V72h0a23.93 23.93 0 0124-24h80a23.93 23.93 0 0124 24h0v40M256 176v224M184 176l8 224M328 176l-8 224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></a>
+                                                </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                 
+              
+                </div>
+            </div>
+        <!-- cart__section__end-->
+
+

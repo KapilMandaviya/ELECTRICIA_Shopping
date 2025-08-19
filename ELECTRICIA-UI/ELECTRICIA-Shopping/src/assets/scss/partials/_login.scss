@@ -1,0 +1,190 @@
+.loginarea {
+    @media #{$device-xl} {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    @media #{$device-lg} {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    
+    @media #{$device-md} {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    
+    @media #{$device-sm} {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  
+    &__col {
+      @media #{$device-lg} {
+        margin-left: 0;
+      }
+      
+    }
+  
+    .tab__button__wrap {
+      margin-bottom: 0; // Fixed typo here (removed unnecessary part `loginarea__formpx`)
+      
+      li {
+        padding-right: 11px;
+        
+        button {
+          border: none;
+          padding: 10px 0;
+          background: #F3F4FD;
+          margin-right: 11px;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: "Hind", sans-serif;
+          color: #000000;
+          width: 100%;
+          border-radius: 2px;
+          position: relative;
+          transition: 0.3s;
+          
+          &.active {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+            background: #ffffff;
+          }
+        }
+      }
+    }
+  
+    &__wraper {
+      padding: 15px 25px 25px;
+      border-radius: 5px;
+      box-shadow: 0px 10px 20px 0px rgba(1, 11, 60, 0.06);
+      
+      @media #{$device-sm} {
+        padding: 5px 10px 20px;
+      }
+    }
+  
+    &__heading {
+      text-align: center;
+      
+      .login__title {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0 0 8px;
+      }
+  
+      .login__description {
+        a {
+          position: relative;
+          
+          &:after {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: var(--primaryColor);
+            bottom: 0;
+            left: 0;
+            transition: var(--transition);
+          }
+  
+          &:hover {
+            color: var(--primaryColor);
+            
+            &:after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  
+    form {
+      .loginarea__form {
+        margin-top: 15px;
+        
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+  
+        .common__login__input {
+          background-color: var(--borderColor);
+          border: 1px solid var(--borderColor);
+          font-size: 14px;
+          font-weight: 400;
+          height: 22px;
+          padding: 3px 20px;
+          width: 100%;
+          border-radius: 5px;
+        }
+  
+        .form__check {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          
+          label {
+            margin: 0;
+            padding-left: 5px;
+          }
+        }
+  
+        .login__form__link {
+          a {
+            position: relative;
+            
+            &:after {
+              content: "";
+              position: absolute;
+              width: 0%;
+              height: 2px;
+              background: var(--primaryColor);
+              bottom: 0;
+              left: 0;
+              transition: var(--transition);
+            }
+  
+            &:hover {
+              color: var(--primaryColor);
+              
+              &:after {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    &__button {
+      margin-top: 5px;
+      
+      a {
+        width: 100%;
+      }
+    }
+  
+    &__social__btn {
+      margin-top: 25px;
+      text-align: center;
+  
+      .login__social__btn {
+        li {
+          a {
+            padding: 10px 20px;
+          }
+  
+          .login__button__1 {
+            margin-right: 20px;
+  
+            @media #{$device-sm} {
+              margin-right: 0;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

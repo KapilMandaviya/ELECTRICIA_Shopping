@@ -1,0 +1,180 @@
+
+        <!-- breadcrumb__start -->
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb__title">
+                            <h1>Blog-Details</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="color__blue">
+                                    Blog
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- breadcrumb__end -->
+
+        <!-- blog__section__start -->
+        <div class="blog sp_bottom_80 sp_top_40">
+            <div class="container">
+                <div class="row " >
+                    <div *ngIf="blogServicesDetail; else noData">
+                    <div class="col-lg-12">
+                        <div class="ltn__blog-details-wrap--">
+                            <div class="ltn__page-details-inner ltn__blog-details-inner">
+                                <img class="img-fluid" [src]="'../../assets/img/blog/' + blogServicesDetail.blog_Image" alt="blog_details">
+                            </div>
+                            <h1 class="ltn__blog-title">{{ blogServicesDetail.blog_Caption }}</h1>
+                            <div class="ltn__blog-meta">
+                                <ul>
+                                    <li class="ltn__blog-author">
+                                        <i class="far fa-user"></i>by: {{ blogServicesDetail.name}}
+                                    </li>
+                                    <li class="ltn__blog-date">
+                                        <i class="far fa-calendar-alt"></i>{{  blogServicesDetail.blog_Date | date:'mediumDate' }}
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-comment"></i>{{cmtCount }} comments</a>
+                                    </li>
+                                </ul>
+                            </div>
+                                      <p>{{ blogServicesDetail.blog_Description }}</p>
+                        </div>
+                        <hr>
+                        <div class="ltn__blog-tags-social-media row sp_top_30 sp_bottom_50">
+                            <div class="ltn__tagcloud-widget col-lg-8">
+                                <h4>Tags</h4>
+                                <ul *ngIf="tags.length > 0; else noTags">
+                                    <li *ngFor="let tag of tags"><a>{{ tag }}</a></li>
+                                  </ul>
+                                  <ng-template #noTags>
+                                    <p>No tags available.</p>
+                                  </ng-template>
+                            </div>
+                            <div class="ltn__social-media text-lg-end col-lg-4">
+                                <h4>Share This Post</h4>
+                                <ul>
+        
+        
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" data-original-title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="ltn__comment-area sp_50" id="comments">
+                            <h4 class="title-2">{{ cmtCount }} comments</h4>
+                            <div class="ltn__comment-inner">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul *ngIf="cmtCount > 0; else noComments">
+                                            <li *ngFor="let comment of comments">
+                                                <div class="ltn__comment-item clearfix">
+                                                    <div class="ltn__commenter-img">
+                
+                                                        <!-- <img src="img/blog/comment_1.jpeg" alt="Comment"> -->
+                
+                                                    </div>
+                                                    <div class="ltn__commenter-comment">
+                                                        <h6>{{ comment.name }}</h6>
+                                                        <span class="comment-date">{{comment.comment_date | date:'mediumDate'}}</span>
+                                                        <p></p>
+                                                        <p> {{ comment.comment_Description }}</p>
+                                                    </div>
+                                                </div>
+                                                <br/>
+                                            </li> 
+                                          
+                                        </ul>
+                                        <ng-template #noComments>
+                                        <p>No comments available.</p>
+                                        </ng-template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="contactarea__form__area__wrap sp_top_50">                            
+                            <h4 class="contactarea__form__title">Post Comment</h4>
+                            <div class="contactarea__form__area">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="contactarea__form__input">
+                                            <input type="text" placeholder="Enter your name" class="" name="contact[name]" id="ContactFormName" value="">
+                                        
+                                        </div>
+                                    
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="contactarea__form__input">
+                                            <input type="text" placeholder="Enter email address" class="" name="contact[email]" id="ContactFormEmail" value="">
+                                        
+                                        </div>
+                                    
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="contactarea__form__input">
+                                            <textarea placeholder="Enter message" class="custom-textarea" name="contact[body]" id="ContactFormMessage"></textarea>
+                                        
+                                        </div>
+                                    
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="contactarea__form__button">
+                                            <a class="default__button" href="#"> <i class="far fa-comments"></i> Post Comment</a>
+                                        
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <ng-template #noData>
+                        <p>No blog details available.</p>
+                      </ng-template>
+                </div>
+            </div>
+        </div>
+        <!-- blog__section__end -->
+
+
+
+
+        <!-- newsletter__section__start -->
+            <div class="newslatter sp_bottom_80">
+                <div class="container container__padding">
+                    <div class="newslatter__inner__wrap">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-lg-10 col-md-10 col-sm-11 col-11">
+                                <div class="newslatter__inner text-center">
+                                    <h2>Newsletter</h2>
+                                    <p>Learn about our most recent news, updates, and deals by subscribing.</p>
+                                    <div class="newslatter__input">
+                                        <input type="text" placeholder="email@example.com">
+                                        <button class="default__button">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!-- newsletter__section__start -->
+
+

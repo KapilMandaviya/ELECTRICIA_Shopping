@@ -1,0 +1,28 @@
+.card {
+  border-radius: 0.5rem;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+#payment-element {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.checkoutarea__billing form,
+.checkoutarea__billing__heading,
+.checkoutarea__inputbox label,
+.checkoutarea__inputbox input {
+  color: #000 !important;
+  
+
+}
+
+.checkoutarea__inputbox input {
+ 
+  border:1PX solid #cccccc; /* Medium gray */
+
+}

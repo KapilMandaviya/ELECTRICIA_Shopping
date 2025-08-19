@@ -1,0 +1,13 @@
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\bin\Release\net8.0\UtilityLayer.deps.json
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\bin\Release\net8.0\UtilityLayer.dll
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\bin\Release\net8.0\UtilityLayer.pdb
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.csproj.AssemblyReference.cache
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.AssemblyInfoInputs.cache
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.AssemblyInfo.cs
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.csproj.CoreCompileInputs.cache
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.sourcelink.json
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.dll
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\refint\UtilityLayer.dll
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\UtilityLayer.pdb
+D:\Kapil\Online Shopping\API\ELECTRICIA-Shopping_API\UtilityLayer\obj\Release\net8.0\ref\UtilityLayer.dll

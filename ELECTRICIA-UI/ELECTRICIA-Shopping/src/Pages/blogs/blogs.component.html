@@ -1,0 +1,213 @@
+<!-- breadcrumb__start -->
+<div class="breadcrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="breadcrumb__title">
+          <h1>Blog</h1>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li class="color__blue">
+              Blog
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- breadcrumb__end -->
+
+<!-- blog__section__start -->
+<div class="blog sp_bottom_80 sp_top_80">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-12 col-12">
+        <div class="blog__sidebar">
+          <h4 class="blog__sidebar__title">Search</h4>
+          <div class="blog__search">
+            <input type="text" placeholder="Search our store">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+
+        <div class="blog__sidebar">
+          <h4 class="blog__sidebar__title">Recent Post</h4>
+          <ul *ngIf="recentBlogs.length > 0; else noRecentPost">
+            <li *ngFor="let recentBlog of recentBlogs" class="blog__sidebar__list">
+              <div class="blog__popular">
+                <div class="blog__popular__img">
+                  <a [routerLink]="['/blogdetail-detail', recentBlog.blog_Id]">
+                    <img [src]="'../../assets/img/blog/' + recentBlog.blog_Image" alt="{{ recentBlog.blog_Caption }}">
+                  </a>
+                </div>
+                <div class="blog__small__text">
+                  <h6><a [routerLink]="['/blogdetail-detail', recentBlog.blog_Id]">{{ recentBlog.blog_Caption}}</a></h6>
+                  <div class="blog__small__meta">
+                    <ul>
+                      <li class="blog__small__date">
+                        <i class="far fa-calendar-alt"></i> {{recentBlog.blog_Date | date:'mediumDate'}}
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ng-template #noRecentPost>
+            <p>No comments available.</p>
+          </ng-template>
+
+        </div>
+
+
+        <div class="blog__sidebar">
+          <h4 class="blog__sidebar__title">Tags</h4>
+          <div class="blog__tags">
+            <ul>
+              <li><a href="blog-details.html" class="">accessories</a></li>
+              <li><a href="blog-details.html" class="">dress</a></li>
+              <li><a href="blog-details.html" class="">fashion</a></li>
+              <li><a href="blog-details.html" class="">men</a></li>
+              <li><a href="blog-details.html" class="">spring</a></li>
+              <li><a href="blog-details.html" class="">winter</a></li>
+              <li><a href="blog-details.html" class="">women</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="blog__sidebar">
+          <h4 class="blog__sidebar__title">Never Miss News</h4>
+          <div class="blog__social__icon">
+            <ul>
+              <li><a target="_blank" title="Facebook-f" href="https://www.facebook.com/shopify"><i
+                    class="fab fa-facebook-f"></i></a></li>
+
+
+              <li><a target="_blank" title="Twitter" href="https://twitter.com/shopify"><i
+                    class="fab fa-twitter"></i></a></li>
+
+
+
+              <li><a target="_blank" title="Youtube" href="https://www.youtube.com/user/shopify"><i
+                    class="fab fa-youtube"></i></a></li>
+
+
+              <li><a target="_blank" title="Instagram" href="https://www.instagram.com/shopify/"><i
+                    class="fab fa-instagram"></i></a></li>
+
+
+              <li><a target="_blank" title="Tiktok" href="https://www.tiktok.com/@shopify"><i
+                    class="fab fa-tiktok"></i></a></li>
+
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-12 col-12">
+       
+        <div class="row">
+          <ng-container *ngFor="let blogdetail of blogDetails">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+            <div class="blog__single__wrap">
+              <div class="blog__img">
+                <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]"> <img [src]="'../../assets/img/blog/' + blogdetail.blog_Image" alt="{{ blogdetail.blog_Caption }}"></a>
+              </div>
+
+              <div class="blog__meta">
+                <ul>
+                  <li class="blog__date"><i class="far fa-calendar-alt"></i> {{ blogdetail.blog_Date | date:'mediumDate' }}</li>
+                  <!-- <li class="blog__commemts">
+                    <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]"><i class="fas fa-comment"></i>{{cmtCount }} comments</a>
+                  </li> -->
+                </ul>
+              </div>
+
+              <div class="blog__title">
+                <h2><a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]" tabindex="0">
+                  {{ blogdetail.blog_Caption }}</a></h2>
+              </div>
+
+              <div class="blog__button">
+                <a [routerLink]="['/blogdetail-detail', blogdetail.blog_Id]" tabindex="0">Read More</a>
+              </div>
+
+            </div>
+          </div>
+        </ng-container>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- blog__section__end -->
+
+<!-- newsletter__section__start -->
+<div class="newslatter sp_bottom_80">
+  <div class="container container__padding">
+    <div class="newslatter__inner__wrap">
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-10 col-md-10 col-sm-11 col-11">
+          <div class="newslatter__inner text-center">
+            <h2>Newsletter</h2>
+            <p>Learn about our most recent news, updates, and deals by subscribing.</p>
+            <div class="newslatter__input">
+              <input type="text" placeholder="email@example.com">
+              <button class="default__button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- newsletter__section__start -->
+
+<!-- <hr>
+<div class="pagination__wraper text-center sp_top_40">
+  <ul>
+
+    <li class="disabled prev">
+      <a href="#">
+        <span>
+
+          <i class="fas fa-angle-double-left"></i>
+
+        </span>
+      </a>
+    </li>
+
+
+
+
+    <li><a class="active" href="#">1</a></li>
+
+
+
+
+    <li>
+      <a href="#" title="">2</a>
+    </li>
+
+
+
+    <li class="next">
+      <a href="#" title="Next »">
+        <span aria-hidden="true">
+
+          <i class="fas fa-angle-double-right"></i>
+
+        </span>
+      </a>
+    </li>
+
+  </ul>
+</div> -->

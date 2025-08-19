@@ -1,0 +1,7 @@
+.primary__image {
+   width: 255px;
+  height: 255px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+}

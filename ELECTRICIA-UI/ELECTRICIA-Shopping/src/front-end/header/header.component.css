@@ -1,0 +1,21 @@
+.header__label {
+  position: absolute;
+  right: 13px;
+  font-size: 10px;
+  background-color: var(--secondaryColor);
+  display: inline-block;
+  color: var(--whiteColor);
+  line-height: 1;
+  padding: 3px 10px;
+  border-radius: 3px;
+  top: 12px;
+  font-weight: normal;
+}
+.header__label.hot__color {
+  background: var(--primaryColor);
+}
+
+.headerarea__megamenu .header__label {
+  top: -3px;
+  right: 0;
+}

@@ -1,0 +1,8 @@
+   <div *ngIf="paymentIntentData">
+      <h2>Payment Details</h2>
+      <p><strong>Status:</strong> {{ paymentIntentData.status }}</p>
+      <p><strong>Amount:</strong> ₹{{ paymentIntentData.amount / 100 }}</p>
+      <p><strong>Currency:</strong> {{ paymentIntentData.currency  }}</p>
+      <p><strong>Payment ID:</strong> {{ paymentIntentData.id }}</p>
+    </div>
+    <p *ngIf="!paymentIntentData" id="test">Checking payment...</p>

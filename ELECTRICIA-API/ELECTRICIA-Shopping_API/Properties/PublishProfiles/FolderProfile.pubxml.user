@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Test</_PublishTargetUrl>
+    <History>True|2025-06-12T11:12:57.1160514Z||;True|2025-06-12T16:37:37.7484359+05:30||;True|2025-06-12T16:23:11.9201821+05:30||;True|2025-06-12T16:09:31.8193274+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=sql.bsite.net\MSSQL2016%3bDatabase=kapilmandaviya1_ELECTRICIAShopping%3bUser Id=kapilmandaviya1_ELECTRICIAShopping%3bPassword=kapil%40192151%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DataAccessLayer.Data.ELECTRICIADBContext">
+      <Value>Server=sql.bsite.net\MSSQL2016%3bDatabase=kapilmandaviya1_ELECTRICIAShopping%3bUser Id=kapilmandaviya1_ELECTRICIAShopping%3bPassword=kapil%40192151%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

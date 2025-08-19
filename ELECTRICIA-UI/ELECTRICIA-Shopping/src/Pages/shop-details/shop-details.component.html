@@ -1,0 +1,557 @@
+
+
+        <!-- breadcrumb__start -->
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb__title">
+                            <h1>Shop</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="color__blue">
+                                    Shop
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- breadcrumb__end -->
+
+    <!-- shop__section__start-->
+        <div class="shop sp_top_80">
+            <div class="container">
+                <div class="row grid__responsive">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                        <button type="button" class="default__button sidebar-collapse-btn" data-aos="fade-up" data-aos-duration="1800" >
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 32 32" width="24"><g id="Layer_2" data-name="Layer 2"><path d="m28.552 6.184h-2.671a4.556 4.556 0 0 0 -8.659 0h-13.774a1.449 1.449 0 0 0 0 2.9h13.774a4.556 4.556 0 0 0 8.659 0h2.671a1.449 1.449 0 0 0 0-2.9zm-7 3.138a1.69 1.69 0 1 1 1.689-1.69 1.692 1.692 0 0 1 -1.689 1.69z"></path><path d="m28.552 14.552h-13.774a4.556 4.556 0 0 0 -8.659 0h-2.671a1.448 1.448 0 0 0 0 2.9h2.671a4.556 4.556 0 0 0 8.659 0h13.774a1.448 1.448 0 0 0 0-2.9zm-18.1 3.138a1.69 1.69 0 1 1 1.686-1.69 1.692 1.692 0 0 1 -1.69 1.69z"></path><path d="m28.552 22.919h-2.671a4.556 4.556 0 0 0 -8.659 0h-13.774a1.449 1.449 0 0 0 0 2.9h13.774a4.556 4.556 0 0 0 8.659 0h2.671a1.449 1.449 0 0 0 0-2.9zm-7 3.138a1.69 1.69 0 1 1 1.689-1.689 1.692 1.692 0 0 1 -1.689 1.689z"></path></g></svg>
+                            FILTER
+                        </button>
+                        
+                         <div class="sidebar sidebar-collapse-hide">
+                            <!-- Categories -->
+                             
+                            
+                            <div class="sidebar__widget">
+                                <div class="sidebar__title d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseCategories">
+                                    <h4>Categories</h4>
+                                    <i class="fa fa-angle-down" style="font-size: 20px; color: black;"></i>
+                                 </div>
+                                
+                                 <div id="collapseCategories" class="collapse sidebar__content">
+                                    <ul class="sidebar__list">
+                                    <li *ngFor="let cat of categories" class="sidebar__item">
+                                        <a>
+                                        {{ cat.name }} <span class="sidebar__count">({{ cat.count }})</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <!-- Availability -->
+                            <div class="sidebar__widget">
+                                <div class="sidebar__title d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseAvailability">
+                                <h4>Availability</h4>
+                                <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="collapse" id="collapseAvailability">
+                                 
+                                    <ul>
+                                    <li>
+                                        <div class="sidebar__box">
+                                        <input type="checkbox" id="inStock">
+                                        <label for="inStock">In Stock</label>
+                                        <span class="shopsidebar__number">(14)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sidebar__box">
+                                        <input type="checkbox" id="outStock">
+                                        <label for="outStock">Out of Stock</label>
+                                        <span class="shopsidebar__number">(6)</span>
+                                        </div>
+                                    </li>
+                                    </ul>
+                                
+                                </div>
+                            </div>
+
+                            <!-- Price Range -->
+                            <div class="sidebar__widget">
+                                <div class="sidebar__title d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsePrice">
+                                <h4>Price Range</h4>
+                                <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="collapse" id="collapsePrice">
+                                 
+                                    <ul>
+                                    <li *ngFor="let price of priceRanges">
+                                        <a href="#">{{price.label}}</a>
+                                    </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+
+                            <!-- Colors -->
+                            <div class="sidebar__widget">
+                                <div class="sidebar__title d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseColors">
+                                <h4>Colors</h4>
+                                <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="collapse" id="collapseColors">
+                                
+                                    <ul>
+                                    <li *ngFor="let color of colors">
+                                        <input type="checkbox" [id]="color.id">
+                                        <label [for]="color.id">{{color.name}}</label>
+                                    </li>
+                                    </ul>
+                                </div>
+                                 
+                            </div>
+
+                            <!-- Brands -->
+                            <div class="sidebar__widget">
+                                <div class="sidebar__title d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseBrands">
+                                <h4>Brands</h4>
+                                <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="collapse" id="collapseBrands">
+                               
+                                    <ul>
+                                    <li *ngFor="let brand of brands">
+                                        <input type="checkbox" [id]="brand.id">
+                                        <label [for]="brand.id">{{brand.name}}</label>
+                                    </li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <!-- End of Sidebar -->
+
+                         
+                    </div>                     
+                    <!-- here bind list of all product to same type -->
+                    <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-12">
+                        <div class="shop__right__wraper">
+                            <div class="shop__tab">
+                                <ul class="nav " id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="shop__tap__link active" data-bs-toggle="tab" data-bs-target="#projects__one" type="button">
+                                            <i class="fas fa-th-large"></i>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="shop__tap__link" data-bs-toggle="tab" data-bs-target="#projects__two" type="button">
+                                            <i class="fas fa-list"></i>
+                                        </button>
+                                    </li>
+                                
+                                    
+        
+                                </ul>
+                            </div>
+                            <div class="shop__selecte">
+                                <select class="nice-select" name="SortBy" id="SortBy">
+                                    <option value="manual">Featured</option>
+                                    <option value="best-selling">Best Selling</option>
+                                    <option value="title-ascending">Alphabetically, A-Z</option>
+                                    <option value="title-descending">Alphabetically, Z-A</option>
+                                    <option value="price-ascending">Price, low to high</option>
+                                    <option value="price-descending">Price, high to low</option>
+                                    <option value="created-descending">Date, new to old</option>
+                                    <option value="created-ascending">Date, old to new</option>
+                                    </select>
+                            </div>
+                            <div class="shop__number text-right">
+                                <span>
+                                    Showing 1 - 15 of  68 result 
+                                </span>
+                                </div>
+                        </div>
+                        <div class="tab-content " id="myTabContent">
+                        <div class="tab-pane fade active show" id="projects__one" role="tabpanel" aria-labelledby="projects__one">
+                            <div class="row grid__responsive">
+                                <div *ngFor="let product of products" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                <div class="grid__wraper">
+                                    <div class="grid__wraper__img">
+                                        <div class="grid__wraper__img__inner">
+                                            <a [routerLink]="['/singleproduct-detail', product.productId, product.pName]">
+                                            <img class="primary__image product-image" [src]="'/assets/img/ProductImagesUnsplash/' + product.img_Name" alt="Primary Image">
+                                            </a>
+                                        </div>
+                                    
+                                    <div class="grid__wraper__icon">
+                                        <ul>
+                                        <li>
+                                            <span data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <a class="quick__view__action"   data-bs-toggle="tooltip" title="Quick View" (click)="openQuickView(product)" >
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <a (click)="addToCart(this.product)" data-bs-toggle="tooltip" title="Add To Cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a (click)="addToWishlist(this.product)" data-bs-toggle="tooltip" title="Add To Wishlist">
+                                            <i class="far fa-heart"></i>
+                                            </a>
+                                        </li>
+                                       
+                                        </ul>
+                                    </div>
+
+                                    <div class="grid__wraper__badge">
+                                        <span class="new__badge">New</span>
+                                        <span class="sale__badge">-15%</span>
+                                    </div>
+
+                                    <div class="grid__wraper__countdown" data-countdown="2026/06/01">
+                                        <div class="count"><p>422</p><span>Days</span></div>
+                                        <div class="count"><p>23</p><span>Hrs</span></div>
+                                        <div class="count"><p>25</p><span>Min</span></div>
+                                        <div class="count"><p>01</p><span>Sec</span></div>
+                                    </div>
+                                    </div>
+
+                                    <div class="grid__wraper__info">
+                                    <h3 class="grid__wraper__tittle">
+                                        <a [routerLink]="['/singleproduct-detail', product.productId]" tabindex="0">
+                                        {{ product.pName }}
+                                        </a>
+                                    </h3>
+
+                                    <div class="grid__wraper__price">
+                                        <del *ngIf="product.pBasePrice > 10000">₹{{ product.pBasePrice + 2000 }}</del>
+                                        <span>₹{{ product.pBasePrice }}</span>
+                                    </div>
+
+                                    <!-- <div class="grid__wraper__color">
+                                        <ul class="color-categories grid-color-swatch color__img__parent d-flex justify-content-center">
+                                        <li class="red color_img_variant"><label title="Red"></label></li>
+                                        <li class="green color_img_variant"><label title="Green"></label></li>
+                                        <li class="blue color_img_variant"><label title="Blue"></label></li>
+                                        <li class="black color_img_variant"><label title="Black"></label></li>
+                                        <li class="vaiant-plus-one">
+                                            <a [routerLink]="['/singleproduct-detail', product.productId]" tabindex="0">
+                                            <span>+5</span>
+                                            </a>
+                                        </li>
+                                        </ul>
+                                    </div> -->
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            
+
+                             <div class="tab-pane fade" id="projects__two" role="tabpanel" aria-labelledby="projects__two">
+                                <div class="row">
+                                    
+                                    <div class="col-xl-12" *ngFor="let product of products">
+                                        <div class="grid__wraper grid__list__wraper">
+
+                                            <div class="grid__wraper__img__list__swatch">
+                                                <div class="grid__wraper__img grid__wraper__img__list">
+                                                    <div class="grid__wraper__img__inner">
+                                                        <a [routerLink]="['/singleproduct-detail', product.productId, product.pName]">
+                                                            <img class="primary__image product-image" [src]="'/assets/img/ProductImagesUnsplash/' + product.img_Name" alt="Primary Image">
+                                                        </a>
+                                                    </div>
+                                                
+                
+                                                    <div class="grid__wraper__badge">
+                                                        <span class="new__badge">New</span>
+                                                        <span class="sale__badge">-15%</span>
+                                                    </div>
+
+                                                    <div class="grid__wraper__countdown" data-countdown="2026/06/01">
+                                                        <div class="count">
+                                                            <p>422</p><span>Days</span>
+                                                        </div>
+                                                        <div class="count">
+                                                            <p>23</p> <span>Hrs</span>
+                                                        </div>
+                                                        <div class="count">
+                                                            <p>25</p> <span>Min</span>
+                                                        </div>
+                                                        <div class="count">
+                                                            <p>01</p> <span>Sec</span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- <div class="grid__wraper__color">
+                                                    <ul class="color-categories grid-color-swatch color__img__parent d-flex justify-content-center">
+                                                        <li class="red color_img_variant">
+                                                            <label data-bs-toggle="tooltip" data-bs-placement="top" title="Red" style="background: url(img/grid/swatch__thumb__1.png);">
+                                                            </label>
+                                                        </li>
+                                                        <li class="green color_img_variant">
+                                                            <label data-bs-toggle="tooltip" data-bs-placement="top" title="Green" style="background: url(img/grid/swatch__thumb__2.png);">
+                                                            </label>
+                                                        </li>
+                                                        <li class="blue color_img_variant">
+                                                            <label data-bs-toggle="tooltip" data-bs-placement="top" title="Blue" style="background: url(img/grid/swatch__thumb__3.png);">
+                                                            </label>
+                                                        </li>
+                                                        <li class="black color_img_variant">
+                                                            <label data-bs-toggle="tooltip" data-bs-placement="top" title="Black" style="background: url(img/grid/swatch__thumb__4.png);">
+                                                            </label>
+                                                        </li>
+                                                        <li class="vaiant-plus-one">
+                                                            <a href="single-product.html" tabindex="0">
+                                                                <span>+5</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div> -->
+                                                
+                                            </div>
+
+                                            <div class="grid__wraper__info grid__wraper__info__list text-start">
+                                                <h3 class="grid__wraper__tittle">
+                                                    <a [routerLink]="['/singleproduct-detail', product.productId]" tabindex="0">
+                                                    {{ product.pName }}
+                                                    </a>
+                                                </h3>
+                                                <div class="grid__wraper__price">
+                                                  <del *ngIf="product.pBasePrice > 50000">₹{{ product.pBasePrice + 2000 }}</del>
+                                                     <span>₹{{ product.pBasePrice }}</span>
+                                                </div>
+
+                                                <div class="gird__list__description">
+                                                    <p>{{product.pDescription}}</p>
+                                                </div>
+
+                                                <div class="grid__wraper__icon grid__wraper__icon__list">                                
+                                                    <ul>
+                                                        <li>
+                                                            <span data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                <a class="quick__view__action" (click)="openQuickView(product)"  data-bs-toggle="tooltip" data-bs-placement="top" title="Quick View" data-bs-original-title="Quick View">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </span>
+                                                        </li>
+            
+                                                        <li>
+                                                            <a (click)="addToCart(this.product)" data-bs-toggle="tooltip" title="Add To Cart">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a (click)="addToWishlist(this.product)" data-bs-toggle="tooltip" title="Add To Wishlist">
+                                                            <i class="far fa-heart"></i>
+                                                            </a>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Compare" data-bs-original-title="Add To Compare">
+                                                                <i class="fas fa-exchange-alt"></i>
+                                                                
+                                                            </a>
+                                                        </li>
+            
+                                                    </ul>   
+                                                </div>
+                                                
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+
+
+                          
+                        </div>
+
+
+                        <!-- <div class="pagination__wraper text-center sp_top_40">
+                            <ul>
+                              <li class="disabled prev">
+                                <a href="#">
+                                  <span>
+                                    <i class="fas fa-angle-double-left"></i>
+                                  </span>
+                                </a>
+                              </li>
+                              <li><a class="active" href="#">1</a></li>
+                              <li>
+                                <a href="#" title="">2</a>
+                              </li>
+                              <li class="next">
+                                <a href="#" title="Next »">
+                                  <span aria-hidden="true">
+                                    
+                                    <i class="fas fa-angle-double-right"></i>
+                                    
+                                  </span>
+                                </a>
+                              </li>
+                              
+                            </ul>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- shop__section__start-->
+ 
+        
+
+        <div id="categoryCarousel" class="carousel slide align-items-center justify-content-center" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/baby/baby__1.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Featured</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__31.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Earrings</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__32.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Baby (T Shirt)</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__33.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Gold</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__37.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Kids</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__35.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Men</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__36.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Necklaces</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/baby/baby__1.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Featured</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__1.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Kids</a></h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 column__custom__class">
+                            <div class="category__single">
+                                <div class="category__img">
+                                    <img src="/assets/img/grid/grid__10.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="category__text">
+                                    <h5><a href="#">Product</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#categoryCarousel" data-bs-slide="prev"  >
+                <span class="carousel-control-prev-icon" style="background-color: rgb(1, 26, 23); margin-right: 10%;margin-bottom: 25%; "  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#categoryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="background-color: rgb(1, 26, 23);margin-left: 10%;margin-bottom: 25%; " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+              

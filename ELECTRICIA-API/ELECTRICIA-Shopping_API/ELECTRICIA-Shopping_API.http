@@ -1,0 +1,6 @@
+@ELECTRICIA_Shopping_API_HostAddress = http://localhost:5021
+
+GET {{ELECTRICIA_Shopping_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
